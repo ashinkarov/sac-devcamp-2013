@@ -24,8 +24,8 @@ topic in a smaller list(s) of bulletpoints.  As for formatting, please use the
    Move shell variables into sac2crc and define the default location of this
    file.
 
- * Agree on a versioning and implement it.  Here is a patch that does a proper
-   manual versioning.  What about this Bob's automatic numbers?
+ * Agree on a versioning and implement it.  Here is a [patch] [version] that 
+   does a proper manual versioning.  What about this Bob's automatic numbers?
 
 ## Testing
  * Fix the masterrun (ha-ha :)
@@ -52,6 +52,9 @@ topic in a smaller list(s) of bulletpoints.  As for formatting, please use the
    4. How about CUDA checks, is it sane enough?
 
  * Error messaging.  One of the problems one could investigate is the lack of
-   location numbers in the intermediate statements.  See X for mode details.
+   location numbers in the intermediate statements.  See [description] [sacloc] 
+   for mode details.
 
 [md]: http://daringfireball.net/projects/markdown/syntax "Markdown syntax"
+[version]: https://github.com/ashinkarov/sac-devcamp-2013/blob/master/git-tag-versioning.patch "SaC versioning"
+[sacloc]: https://github.com/ashinkarov/sac-devcamp-2013/blob/master/sac-locations.md "SaC locations problem"
