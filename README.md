@@ -26,6 +26,10 @@ topic in a smaller list(s) of bulletpoints.  As for formatting, please use the
 
  * Agree on a versioning and implement it.  Here is a [patch] [version] that 
    does a proper manual versioning.  What about this Bob's automatic numbers?
+ 
+ * Agre on the branching model and implement it.  One of the good candidates
+   to consider is a ["A successful Git branching model"] [gitbranch] proposed
+   by Vincent Driessen.
 
 ## Testing
  * Fix the masterrun (ha-ha :)
@@ -58,3 +62,4 @@ topic in a smaller list(s) of bulletpoints.  As for formatting, please use the
 [md]: http://daringfireball.net/projects/markdown/syntax "Markdown syntax"
 [version]: https://github.com/ashinkarov/sac-devcamp-2013/blob/master/git-tag-versioning.patch "SaC versioning"
 [sacloc]: https://github.com/ashinkarov/sac-devcamp-2013/blob/master/sac-locations.md "SaC locations problem"
+[gitbranch]: http://nvie.com/posts/a-successful-git-branching-model/ "A successful git branching model"
