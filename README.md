@@ -20,6 +20,8 @@ topic in a smaller list(s) of bulletpoints.  As for formatting, please use the
       Makefile (??) and which compiles stdlib and demos on demand.  I don't
       understand the assumption regarding sac2c.  Should it be compied already?
 
+ * separate sac2c from stdlib and demos. Make at least the stdlib open source?!
+
  * Create install/uninstall target in the Makefile, avoiding shell variables.
    Move shell variables into sac2crc and define the default location of this
    file.
@@ -45,6 +47,10 @@ topic in a smaller list(s) of bulletpoints.  As for formatting, please use the
 
  * Get rid of the remainders of old lexer/parser in the code, makefiles and 
    configure scripts.  WTF id `new_parser.c` from Fangyong?
+ * Eliminate compiler warnings; at least to a reasonable level.
+ * Clean up the compiler warnings from nvcc (CUDA).
+ * Decide on a few scanner/parser issues. (operator restrictions / syntax as
+   well as extended LHS options
  * Clean-up configure.ac:
    1. `sbrk` check is insane.
    2. revise architecture and compilers section.  Do those things even make
@@ -55,6 +61,10 @@ topic in a smaller list(s) of bulletpoints.  As for formatting, please use the
       So specifying some constant is not really a good idea.
    4. How about CUDA checks, is it sane enough?
 
+## Slightly more involved issues
+
+ * sorting out a strategy for backend and variant management (CUDA,openMP,POSIX,
+   LPEL, MUTC, sac4c (singleThreaded / multiThreaded), hybrid CUDA, ....)
  * Error messaging.  One of the problems one could investigate is the lack of
    location numbers in the intermediate statements.  See [description] [sacloc] 
    for mode details.
