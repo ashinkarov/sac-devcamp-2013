@@ -46,7 +46,7 @@ topic in a smaller list(s) of bulletpoints.  As for formatting, please use the
 ## General problems && bug fixing
 
  * Get rid of the remainders of old lexer/parser in the code, makefiles and 
-   configure scripts.  WTF id `new_parser.c` from Fangyong?
+   configure scripts.  WTF is `new_parser.c` from Fangyong?
  * Eliminate compiler warnings; at least to a reasonable level.
  * Clean up the compiler warnings from nvcc (CUDA).
  * Decide on a few scanner/parser issues. (operator restrictions / syntax as
