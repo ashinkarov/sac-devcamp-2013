@@ -63,13 +63,15 @@ topic in a smaller list(s) of bulletpoints.  As for formatting, please use the
 
 ## Slightly more involved issues
 
- * sorting out a strategy for backend and variant management (CUDA,openMP,POSIX,
+ * Sorting out a strategy for backend and variant management (CUDA,openMP,POSIX,
    LPEL, MUTC, sac4c (singleThreaded / multiThreaded), hybrid CUDA, ....)
  * Error messaging.  One of the problems one could investigate is the lack of
    location numbers in the intermediate statements.  See [description] [sacloc] 
    for mode details.
+ * Proposal from Bob can be found [here][bob].
 
 [md]: http://daringfireball.net/projects/markdown/syntax "Markdown syntax"
 [version]: https://github.com/ashinkarov/sac-devcamp-2013/blob/master/git-tag-versioning.patch "SaC versioning"
 [sacloc]: https://github.com/ashinkarov/sac-devcamp-2013/blob/master/sac-locations.md "SaC locations problem"
 [gitbranch]: http://nvie.com/posts/a-successful-git-branching-model/ "A successful git branching model"
+[bob]: https://github.com/ashinkarov/sac-devcamp-2013/blob/master/proposal-from-bob.md "Proposal from Bob"
